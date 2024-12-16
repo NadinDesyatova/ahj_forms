@@ -107,7 +107,7 @@ body {
   border-radius: .3rem;
 }
 
-.arrow {
+.popover-arrow {
   left: calc(50% - 1rem);
   bottom: calc((.5rem + 1px)* -1);
   width: 1rem;
@@ -118,7 +118,7 @@ body {
   box-sizing: border-box;
 }
 
-.arrow::after, .arrow::before {
+.popover-arrow::after, .popover-arrow::before {
   display: block;
   content: "";
   border-color: transparent;
@@ -126,13 +126,13 @@ body {
   border-style: solid;
 }
 
-.arrow::before {
+.popover-arrow::before {
   top: 0;
   border-width: .5rem .5rem 0 .5rem ;
   border-top-color: rgba(0, 0, 0, .25);
 }
 
-.arrow::after {
+.popover-arrow::after {
   top: -1px;
   border-width: .5rem .5rem 0 .5rem;
   border-top-color: #fff;
